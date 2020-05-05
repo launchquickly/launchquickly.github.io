@@ -1,2 +1,2 @@
 # launchquickly.github.io
-Launchquickly company website
+launchquickly company website
