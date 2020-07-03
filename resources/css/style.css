@@ -166,6 +166,11 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.hero-text-box h1:first-of-type {
+    border-bottom: 2px solid #e67e22;
+    display: inline;
+}
+
 .logo {
     height: 100px;
     width: auto;
