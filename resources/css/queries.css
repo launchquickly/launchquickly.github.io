@@ -15,6 +15,7 @@
         width: 80%;
         margin-left: 10%;
     }
+    .value-box { width: 80%; }
 }
 
 /* Small phone to small tablets: from 481px to 767px */
@@ -33,6 +34,11 @@
     .long-copy {
         width: 100%;
         margin-left: 0%;
+    }
+    .value-box { 
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
     }
 }
 

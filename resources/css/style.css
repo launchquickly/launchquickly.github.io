@@ -212,6 +212,58 @@ header {
 .section-features .long-copy { margin-bottom: 30px; }
 
 /* --------------------------------------------- */
+/* WHAT */
+/* --------------------------------------------- */
+
+.section-what { background-color: #f4f4f4; }
+
+.value-box { width: 60%; }
+
+.value-item { margin-bottom: 40px; }
+
+.value-item:last-of-type { text-align: center; }
+
+.value-item div {
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    color: #e67e22;
+    display: inline-block;
+    float: left;
+    font-size: 150%;
+    height: 50px;
+    margin-right: 25px;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+}
+
+.value-item p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.email-us { display: inline-block; }
+
+.email-us a {
+    background-color: #2daeb7;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 90%;
+    font-weight: 400;
+    padding: 8px;
+}
+
+.email-us a:link,
+.email-us a:visited {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.email-us a:hover,
+.email-us a:active { border-bottom: 2px solid #e67e22; }
+
+/* --------------------------------------------- */
 /* FOOTER */
 /* --------------------------------------------- */
 footer {
