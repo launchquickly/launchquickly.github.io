@@ -95,6 +95,7 @@ h4 {
 }
 
 /* ---- PARAGRAPHS ---- */
+
 .long-copy {
     line-height: 145%;
     width: 70%;
@@ -109,6 +110,7 @@ h4 {
 }
 
 /* ---- ICONS ---- */
+
 .icon-big {
     font-size: 350%;
     display: block;
@@ -157,6 +159,42 @@ h4 {
 /* --------------------------------------------- */
 /* HEADER */
 /* --------------------------------------------- */
+
+.skip-link {
+    clip: rect(0px, 0px, 0px, 0px) !important;
+    clip-path: inset(50%) !important;
+    -webkit-clip-path: inset(50%) !important;
+    display: block;
+    font-size: 90%;
+    height: 1px !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    padding: 10px 15px;
+    position: absolute !important;
+    white-space: nowrap !important;
+    width: 1px !important;
+}
+
+.skip-link:focus {
+    background-color: #e67e22;
+    outline: 3px solid #e67e22;
+}
+
+.skip-link:link, .skip-link:visited, .skip-link:hover, .skip-link:active, .skip-link:focus {
+    color: #fff;
+}
+
+.skip-link:active, .skip-link:focus {
+    clip: auto !important;
+    clip-path: none !important;
+    -webkit-clip-path: none !important;
+    height: auto !important;
+    margin: inherit !important;
+    overflow: visible !important;
+    position: static !important;
+    white-space: inherit !important;
+    width: auto !important;
+}
 
 header {
     background-image: linear-gradient(rgba(0, 29, 0, 0.7), rgba(0, 29, 0, 0.7)),  url(img/beach.jpg);
@@ -209,6 +247,7 @@ header {
 /* --------------------------------------------- */
 /* FEATURES */
 /* --------------------------------------------- */
+
 .section-features .long-copy { margin-bottom: 30px; }
 
 /* --------------------------------------------- */
@@ -266,6 +305,7 @@ header {
 /* --------------------------------------------- */
 /* FOOTER */
 /* --------------------------------------------- */
+
 footer {
     background-color: #001d00;
     padding: 40px;
