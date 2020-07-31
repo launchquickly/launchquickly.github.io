@@ -368,3 +368,28 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
+
+/* --------------------------------------------- */
+/* PRIVACY POLICY */
+/* --------------------------------------------- */
+
+.privacy-section h3 {
+    text-align: left;
+}
+
+.privacy-section p:last-of-type {
+    margin-bottom: 30px;
+}
+
+.privacy-section p {
+    margin-bottom: 20px;
+}
+
+.privacy-section ul {
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.privacy-section li {
+    margin-bottom: 5px;
+}
