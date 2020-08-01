@@ -205,7 +205,7 @@ header {
 }
 
 .page-header {
-    height: 200px;
+    height: 140px;
 }
 
 .hero-text-box {
@@ -370,26 +370,40 @@ footer p {
 }
 
 /* --------------------------------------------- */
+/* ACCESSIBILITY STATEMENT */
 /* PRIVACY POLICY */
 /* --------------------------------------------- */
 
-.privacy-section h2 {
+.accessibility-section h1,
+.privacy-section h1 {
     color: #000;
+    font-size: 260%;
+    text-transform: none;
 }
 
+.accessibility-section h2,
+.privacy-section h2 {
+    color: #000;
+    font-size: 240%;
+}
+
+.accessibility-section h3,
 .privacy-section h3 {
     text-align: left;
 }
 
+.accessibility-section p,
 .privacy-section p {
     margin-bottom: 20px;
 }
 
+.accessibility-section ul,
 .privacy-section ul {
     margin-bottom: 20px;
     padding-left: 40px;
 }
 
+.accessibility-section li,
 .privacy-section li {
     margin-bottom: 5px;
 }
