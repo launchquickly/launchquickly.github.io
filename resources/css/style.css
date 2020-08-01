@@ -377,10 +377,6 @@ footer p {
     text-align: left;
 }
 
-.privacy-section p:last-of-type {
-    margin-bottom: 30px;
-}
-
 .privacy-section p {
     margin-bottom: 20px;
 }
