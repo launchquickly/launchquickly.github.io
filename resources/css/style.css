@@ -51,7 +51,7 @@ h4 {
 }
 
 h1 {
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #dc582a;
     color: #fff;
     display: inline-block;
     font-size: 240%;
@@ -80,7 +80,7 @@ h3 {
 }
 
 h3:after {
-    background-color: #e67e22;
+    background-color: #dc582a;
     content: " ";
     display: block;
     height: 2px;
@@ -114,7 +114,7 @@ h4 {
 .icon-big {
     font-size: 350%;
     display: block;
-    color: #e67e22;
+    color: #dc582a;
     margin-bottom: 10px;
 }
 
@@ -132,28 +132,28 @@ h4 {
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
-    color: #fff;
+    background-color: #dc582a;
+    border: 1px solid #dc582a;
+    color: #000;
     margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 1px solid #dc582a;
+    color: #dc582a;
 }
 
 .btn:hover,
-.btn:active { background-color: #cf6d17; }
+.btn:active { background-color: #c16515; }
 
 .btn-full:hover,
-.btn-full:active { border: 1px solid #cf6d17; }
+.btn-full:active { border: 1px solid #c16515; }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #cf6d17;
-    color: #fff;
+    border: 1px solid #c16515;
+    color: #000;
 }
 
 /* --------------------------------------------- */
@@ -176,12 +176,12 @@ h4 {
 }
 
 .skip-link:focus {
-    background-color: #e67e22;
-    outline: 3px solid #e67e22;
+    background-color: #dc582a;
+    outline: 3px solid #dc582a;
 }
 
 .skip-link:link, .skip-link:visited, .skip-link:hover, .skip-link:active, .skip-link:focus {
-    color: #fff;
+    color: #000;
 }
 
 .skip-link:active, .skip-link:focus {
@@ -246,7 +246,7 @@ header {
 }
 
 .main-nav li a:hover,
-.main-nav li a:active { border-bottom: 2px solid #e67e22; }
+.main-nav li a:active { border-bottom: 2px solid #dc582a; }
 
 /* --------------------------------------------- */
 /* FEATURES */
@@ -267,9 +267,9 @@ header {
 .value-item:last-of-type { text-align: center; }
 
 .value-item div {
-    border: 2px solid #e67e22;
+    border: 2px solid #dc582a;
     border-radius: 50%;
-    color: #e67e22;
+    color: #dc582a;
     display: inline-block;
     float: left;
     font-size: 150%;
@@ -288,7 +288,7 @@ header {
 .email-us { display: inline-block; }
 
 .email-us a {
-    background-color: #228a8c;
+    background-color: #186063;
     color:#fff;
     text-decoration: none;
     border-radius: 3px;
@@ -304,7 +304,7 @@ header {
 }
 
 .email-us a:hover,
-.email-us a:active { border-bottom: 2px solid #e67e22; }
+.email-us a:active { border-bottom: 2px solid #dc582a; }
 
 /* --------------------------------------------- */
 /* FOOTER */
