@@ -373,6 +373,10 @@ footer p {
 /* PRIVACY POLICY */
 /* --------------------------------------------- */
 
+.privacy-section h2 {
+    color: #000;
+}
+
 .privacy-section h3 {
     text-align: left;
 }
