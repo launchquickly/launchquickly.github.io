@@ -145,14 +145,14 @@ h4 {
 }
 
 .btn:hover,
-.btn:active { background-color: #c16515; }
+.btn:active { background-color: #ff9966; }
 
 .btn-full:hover,
-.btn-full:active { border: 1px solid #c16515; }
+.btn-full:active { border: 1px solid #ff9966; }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #c16515;
+    border: 1px solid #ff9966;
     color: #000;
 }
 
