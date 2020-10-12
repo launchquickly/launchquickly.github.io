@@ -374,10 +374,12 @@ footer p {
 
 /* --------------------------------------------- */
 /* ACCESSIBILITY STATEMENT */
+/* COOKIES */
 /* PRIVACY POLICY */
 /* --------------------------------------------- */
 
 .accessibility-section h1,
+.cookie-section h1,
 .privacy-section h1 {
     color: #000;
     font-size: 260%;
@@ -385,28 +387,33 @@ footer p {
 }
 
 .accessibility-section h2,
+.cookie-section h2,
 .privacy-section h2 {
     color: #000;
     font-size: 240%;
 }
 
 .accessibility-section h3,
+.cookie-section h3,
 .privacy-section h3 {
     text-align: left;
 }
 
 .accessibility-section p,
+.cookie-section p,
 .privacy-section p {
     margin-bottom: 20px;
 }
 
 .accessibility-section ul,
+.cookie-section ul,
 .privacy-section ul {
     margin-bottom: 20px;
     padding-left: 40px;
 }
 
 .accessibility-section li,
+.cookie-section li,
 .privacy-section li {
     margin-bottom: 5px;
 }
